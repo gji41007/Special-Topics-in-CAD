@@ -19,7 +19,3 @@ gateType str2Type(const std::string& type) {
     else return gateType::NAND;
 }
 
-
-// testcase = "c432"
-// filename = ["delay", "gate_info", "load", "path"] //4 file pair to be check
-// test/goldern/{testcase}/golden_{testcase}_{filename[i]}.txt <-> ./public_lib_{testcase}_{filename[i]}.txt
